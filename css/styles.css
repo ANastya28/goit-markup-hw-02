@@ -85,6 +85,7 @@ ul {
     background-color: var(--button-backgraund-color);
 
     cursor: pointer;
+    font-family: Roboto, sans-serif;
     font-style: inherit;
     font-style: 400;
     font-weight: 500;
@@ -127,6 +128,7 @@ ul {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .section-title {
@@ -137,6 +139,7 @@ ul {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
+    letter-spacing: 0.02em
 }
 
 .section-subtitle {
@@ -160,10 +163,10 @@ ul {
     
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.2;
     text-align: center;
     text-transform: capitalize;
-
+    letter-spacing: 0.02em
 }
 
 .team-subtitle {
@@ -206,7 +209,6 @@ a {
 
 .footer {
     background-color: var(--footer-backgraund-color);
-
 }
 
 .footer-text {
@@ -216,7 +218,8 @@ a {
 
 .logo-footer {
     color: var(--logo-footer-color);
-
+    
+    font-family: Raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
