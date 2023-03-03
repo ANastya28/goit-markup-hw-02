@@ -31,7 +31,9 @@ body {
 
    background-color: var(--primary-backgraund-color);
    font-family: Roboto, sans-serif; 
+   font-size: 16px;  
    letter-spacing: 0.02em;
+   line-height: 1.5;
 }
 
 ul {
@@ -58,9 +60,6 @@ ul {
     color: var(--primary-text-color);
 
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-
 }
 
 .site-nav .link:hover,
@@ -73,8 +72,6 @@ ul {
     color: var(--primary-text-color);
 
     text-decoration: none;
-    font-size: 16px;
-    line-height: 1.5;
 }
 
 .contacts .link:hover, 
@@ -151,9 +148,7 @@ ul {
 }
 
 .section-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;  
+     font-weight: 400
 }
 
 .team {
@@ -182,8 +177,6 @@ ul {
 
 .team-text {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
     text-align: center;
 }
 
@@ -219,9 +212,6 @@ a {
 .footer-text {
     color: var(--footer-text-color);
 
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 
 .logo-footer {
