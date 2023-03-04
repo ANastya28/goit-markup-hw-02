@@ -51,7 +51,7 @@ ul {
 
 }
 
-.link {
+.logo {
     color: var(--web-color);
         
     font-family: Raleway, sans-serif;
@@ -63,7 +63,7 @@ ul {
     text-decoration: none;
 }
 
-.site-nav .link{
+.site-nav .nav{
     color: var(--title-text-color);
     
     font-family: Roboto, sans-serif;
@@ -74,12 +74,12 @@ ul {
     text-transform: none;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus,
-.site-nav .link:active,
-.contacts-list .link:hover,
-.contacts-list .link:focus,
-.contacts-list .link:active {
+.nav:hover,
+.nav:focus,
+.nav:active,
+.contacts-list:hover,
+.contacts-list:focus,
+.contacts-list:active {
     color: var(--accent-color);
 }
 
@@ -91,12 +91,6 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
-}
-
-.contacts-list .link:hover, 
-.contacts-list .link:focus,
-.contacts-list .link:active {
-    color: var(--accent-color);
 }
 
 .button {
