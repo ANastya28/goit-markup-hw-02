@@ -217,7 +217,7 @@ a {
     letter-spacing: 0.02em;
 }
 
-.link .section-text-link {
+.section-text-link {
     color: var(--primary-text-color);
 
     font-style: normal;
