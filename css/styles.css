@@ -40,26 +40,39 @@ ul {
     list-style: none;
 }
 
-.logo {
-    color: var(--title-text-color);
+.logo-link{
+    color: var(--web-color);
 
     font-family: Raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none
+}
+
+.logostudio {
+    color: var(--title-text-color);
+    font-family: Raleway, sans-serif;
     text-transform: uppercase;
 }
 
-.web {
-    color: var(--web-color);
-    font-family: Raleway, sans-serif;
+.list {
+    list-style: none
+}
+
+.link {
+    text-decoration: none
 }
 
 .site-nav .link{
-    color: var(--primary-text-color);
+    color: var(--title-text-color);
 
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em
 }
 
 .site-nav .link:hover,
@@ -68,15 +81,19 @@ ul {
     color: var(--accent-color);
 }
 
-.contacts .link {
+.contacts-list {
+    font-style: normal;
+}
+
+.contacts-list .link {
     color: var(--primary-text-color);
 
     text-decoration: none;
 }
 
-.contacts .link:hover, 
-.contacts .link:focus,
-.contacts .link:active {
+.contacts-list .link:hover, 
+.contacts-list .link:focus,
+.contacts-list .link:active {
     color: var(--accent-color);
 }
 
@@ -139,7 +156,7 @@ ul {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
 }
 
 .section-subtitle {
@@ -151,7 +168,7 @@ ul {
 }
 
 .section-text {
-     font-weight: 400
+     font-weight: 400;
 }
 
 .team {
@@ -163,10 +180,10 @@ ul {
     
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.2;
+    line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
 }
 
 .team-subtitle {
@@ -174,8 +191,9 @@ ul {
 
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.24px;
+    line-height: 1.2;
     text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .team-text {
@@ -187,13 +205,14 @@ a {
     text-decoration: none;
 }
 .section-subtitle-link {
-    color: var(--primary-text-color);
+    color: var(--title-text-color);
 
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.24px;
+    line-height: 1.2;
     text-decoration: none;
+    letter-spacing: 0.02em
 }
 
 .section-text-link {
