@@ -36,10 +36,6 @@ body {
    line-height: 1.5;
 }
 
-ul {
-    list-style: none;
-}
-
 .logostudio {
     color: var(--title-text-color);
     font-family: Raleway, sans-serif;
@@ -47,8 +43,7 @@ ul {
 }
 
 .list {
-    list-style: none
-
+    list-style: none;
 }
 
 .link {
@@ -202,9 +197,6 @@ ul {
     text-align: center;
 }
 
-a {
-    text-decoration: none;
-}
 .section-subtitle-link {
     color: var(--title-text-color);
 
