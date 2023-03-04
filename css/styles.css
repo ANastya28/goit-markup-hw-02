@@ -63,7 +63,7 @@ ul {
     text-decoration: none;
 }
 
-.site-nav .nav{
+.nav{
     color: var(--title-text-color);
     
     font-family: Roboto, sans-serif;
@@ -77,13 +77,13 @@ ul {
 .nav:hover,
 .nav:focus,
 .nav:active,
-.contacts-list:hover,
-.contacts-list:focus,
-.contacts-list:active {
+.list-contact:hover,
+.list-contact:focus,
+.list-contact:active {
     color: var(--accent-color);
 }
 
-.list .contacts-list {
+.list-contact {
     color: var(--primary-text-color);
     
     font-style: normal;
