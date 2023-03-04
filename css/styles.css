@@ -93,6 +93,10 @@ ul {
     text-decoration: none;
 }
 
+.contacts{
+    font-style: normal;
+}
+
 .button {
     color: var(--button-text-color);
     background-color: var(--button-backgraund-color);
